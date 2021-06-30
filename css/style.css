@@ -16,3 +16,9 @@ body {
     display: table;
     clear: both;
 }
+
+header {
+    background-color: #3161e0;
+    color: white;
+}
+
