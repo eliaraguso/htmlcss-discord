@@ -125,22 +125,34 @@ header {
     height: 500px;
 }
 
-.container2 {
+.container-img-left {
     height: 100%;
     width: 50%;
     float: left;
 }
 
-.container2b {
+.container-img-right {
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+.container-main-txt-right {
     height: 100%;
     width: 30%;
     float: right;
+}
+
+.container-main-txt-left {
+    height: 100%;
+    width: 30%;
+    float: left;
 }
 .img-section {
     width: 100%;
 }
 
-.container2 img {
+.container-img-left img, .container-img-right img {
     height: 100%;
     line-height: 100%;
 }
