@@ -8,6 +8,7 @@
 /* typo */
 body {
     font-family: 'Poppins', sans-serif;
+    max-width: 1920px;
 }
 
 /* common */
@@ -17,8 +18,69 @@ body {
     clear: both;
 }
 
+.container  {
+    margin: auto;
+    max-width: 70%;
+    position: relative;
+}
+
+.col-left, .col-central, .col-right {
+    background-color: #3161e0;
+    height: 80px;
+    float: left;
+}
+
+.col-left, .col-right {
+    width: 15%;
+}
+
+.col-central {
+    width: 70%;
+    margin: auto;
+}
+
+.col-right {
+    position: absolute;
+    right: 0;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+/* header */
 header {
     background-color: #3161e0;
     color: white;
+}
+
+.align-right {
+    /* margin-top: 20px; */
+    right: 0px;
+    position: absolute;
+}
+
+.logo {
+    /* margin-top: 20px; */
+}
+
+.main-nav ul {
+    list-style: none;
+    text-align: center;
+    /* margin-top: 20px; */
+    word-spacing: 50px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.logo, .main-nav ul, .align-right {
+    margin-top: 25px;
 }
 
