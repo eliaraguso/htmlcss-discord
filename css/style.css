@@ -9,6 +9,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     width: 1920px;
+    margin: auto;
 }
 
 /* ------------------------common ---------------------------------*/
@@ -229,11 +230,6 @@ footer {
     width: 15%;
 }
 
-.col-central1 {
-    width: 70%;
-    margin: auto;
-}
-
 .col-right1 {
     position: absolute;
     right: 0;
@@ -256,18 +252,27 @@ hr {
     color: #8ea1e1;
 }
 
-.sec0 {
-    width: 25%;
-    height: 500px;
-    background-color: tomato;
+.big-col {
+    width: 30%;
     float: left;
-    border: 1px solid greenyellow;
 }
-
-.sec1 {
-    width: 18.75%;
-    height: 500px;
-    background-color: tomato;
+.small-col {
+    width: calc(70% / 4);
     float: left;
-    border: 1px solid greenyellow;
+}
+.liste {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.liste ul {
+    list-style: none;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.liste li, .liste h3 {
+    color: #7289da;
+}
+.liste li a{
+    display: inline-block;
+    padding: 5px 0px;
 }
