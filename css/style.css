@@ -275,4 +275,14 @@ hr {
 .liste li a{
     display: inline-block;
     padding: 5px 0px;
+    text-decoration: none;
+    color: white;
+}
+
+.icons a {
+    color: white;
+}
+
+.lingua {
+    color: white;
 }
